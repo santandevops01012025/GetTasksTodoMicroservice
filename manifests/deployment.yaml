@@ -19,6 +19,4 @@ spec:
         - containerPort: 8000
         env: 
         - name: CONNECTION_STRING
-          value: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:santankaselserver.database.windows.net,1433;Database=santankadb;Uid=santansre;Pwd=Mnbvcxz@1122334455;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"          
-
-
+          value: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:santansre.database.windows.net,1433;Database=santankadb;Uid=santansre;Pwd=Mnbvcxz@1122334455;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
